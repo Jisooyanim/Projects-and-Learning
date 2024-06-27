@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import Todo from './views/Todo';
+import Home from './views/Home';
 import "./App.css";
 
 const App = () => {
 
   return (
-    <Todo/>
+    <Home />
   );
 };
 

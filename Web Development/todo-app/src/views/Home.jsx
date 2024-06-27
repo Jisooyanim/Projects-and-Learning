@@ -1,10 +1,8 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
 import Layout from "../containers/Layout";
 import Background from "../containers/Background";
 import Holder from "../containers/Holder";
 import Tasks from "../components/Tasks";
-import { colors } from "../themes/colors";
 
 const Todo = () => {
 
@@ -12,7 +10,7 @@ const Todo = () => {
         <Layout>
             <Background>
                 <Holder>
-                    <p>Test</p>
+                    <Tasks/>
                 </Holder>
             </Background>
         </Layout>
