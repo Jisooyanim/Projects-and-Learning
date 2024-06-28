@@ -6,6 +6,7 @@ const Button = ({
     display,
     alignItems,
     justifyContent,
+    marginRight,
     backgroundColor,
     children,
     ...rest
@@ -16,6 +17,7 @@ const Button = ({
         display: "flex", 
         alignItems: "center", 
         justifyContent: "center", 
+        marginRight,
         backgroundColor,
     };
     

@@ -1,9 +1,9 @@
 import React from "react";
-import Task from "../containers/Task";
-import { Container, Row } from "react-bootstrap";
+import DoneTask from "../containers/DoneTask";
+import { Container, Row, Col } from "react-bootstrap";
 import { fonts } from "../themes/fonts";
 
-const Todo = () =>{
+const Done = () =>{
 
     const fontStyle = {
         fontFamily: fonts.inter,
@@ -16,8 +16,9 @@ const Todo = () =>{
         <Container 
             fluid 
             style={{
-                height:"380px",
+                height:"215px",
                 width:"565px",
+                marginTop: "30px",
                 border: '1px solid rgba(204, 204, 204, 0.5)'
         }}>
             <Row style ={{
@@ -26,24 +27,18 @@ const Todo = () =>{
                 marginBottom: "10px",
             }}>
                 <span style={{ ...fontStyle }}>
-                    Tasks to do - (counter)
+                    Done - (counter)
                 </span>
             </Row>
 
-            <Task>
-                <span>Test1</span>
-            </Task>
-            <Task>
-                <span>Test2</span>
-            </Task>
-            <Task>
-                <span>Test3</span>
-            </Task>
-            <Task>
-                <span>Test4</span>
-            </Task>
+            <DoneTask>
+                <span>Done1</span>
+            </DoneTask>
+            <DoneTask>
+                <span>Done2</span>
+            </DoneTask>
         </Container>
     );
 };
 
-export default Todo;
+export default Done;
