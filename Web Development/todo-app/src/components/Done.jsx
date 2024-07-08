@@ -1,6 +1,6 @@
 import React from "react";
 import DoneTask from "../containers/DoneTask";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { fonts } from "../themes/fonts";
 
 const Done = () =>{
