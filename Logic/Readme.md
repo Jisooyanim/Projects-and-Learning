@@ -7,4 +7,4 @@ Coding:
 <br/><br/>
 
 Notes and Videos:
-- pass
+- [8 patterns to solve 80% Leetcode problems ](https://www.youtube.com/watch?v=xo7XrRVxH8Y&list=LL&index=44)
